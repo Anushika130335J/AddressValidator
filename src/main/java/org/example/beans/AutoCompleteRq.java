@@ -14,21 +14,21 @@ public class AutoCompleteRq {
     @JsonProperty("format")
     private String format;
     @JsonProperty("delivered")
-    private String delivered;
+    private String delivered = "";
     @JsonProperty("post_box")
-    private String postBox;
+    private String postBox = "";
     @JsonProperty("rural")
-    private String rural;
+    private String rural = "";
     @JsonProperty("strict")
-    private String strict;
+    private String strict = "";
     @JsonProperty("region_code")
-    private String regionCode;
+    private String regionCode = "";
     @JsonProperty("domain")
-    private String domain;
+    private String domain = "";
     @JsonProperty("max")
-    private String max;
+    private String max = "";
     @JsonProperty("highlight")
-    private String highlight;
+    private String highlight = "";
     @JsonProperty("ascii")
-    private String ascii;
+    private String ascii = "";
 }

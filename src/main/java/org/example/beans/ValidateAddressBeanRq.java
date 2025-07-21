@@ -14,14 +14,14 @@ public class ValidateAddressBeanRq {
     @JsonProperty("q")
     private String q;
     @JsonProperty("post_box")
-    private String post_box;
+    private String post_box = "";
     @JsonProperty("region_code")
-    private String region_code;
+    private String region_code = "";
     @JsonProperty("census")
-    private String census;
+    private String census = "";
     @JsonProperty("domain")
-    private String domain;
+    private String domain = "";
     @JsonProperty("ascii")
-    private String ascii;
+    private String ascii = "";
 }
 
